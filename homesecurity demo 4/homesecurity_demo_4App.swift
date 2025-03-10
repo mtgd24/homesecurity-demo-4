@@ -11,7 +11,7 @@ import SwiftUI
 struct homesecurity_demo_4App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabbedView()
         }
     }
 }
