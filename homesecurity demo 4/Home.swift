@@ -3,7 +3,8 @@ import SwiftUI
 struct HomeView: View {
     
     @Binding var presentSideMenu: Bool
-    
+    @StateObject private var viewModel = UserViewModel()
+
     var body: some View {
         VStack{
             HStack{
@@ -20,6 +21,10 @@ struct HomeView: View {
             Spacer()
             Text("Home View")
             Spacer()
+            Button("Fetch Users") {
+                viewModel.fetchUsers()
+//                print("testing...")
+            }
         }
         .padding(.horizontal, 24)
     }
