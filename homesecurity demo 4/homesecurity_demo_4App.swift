@@ -62,9 +62,12 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
 struct homesecurity_demo_4App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
+    @StateObject private var viewModel = UserViewModel() // Ensure it's initialized
+
     var body: some Scene {
         WindowGroup {
-            MainTabbedView()
+            LoginView()
+                .environmentObject(viewModel) // Inject the ViewModel if needed
         }
     }
 }

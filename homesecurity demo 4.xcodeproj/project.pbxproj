@@ -34,6 +34,8 @@
 		28A3EDD62D7FCD0C00CDF95B /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 28A3EDD52D7FCD0C00CDF95B /* FirebaseInAppMessaging-Beta */; };
 		28A3EDD82D7FCD0C00CDF95B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 28A3EDD72D7FCD0C00CDF95B /* FirebaseMessaging */; };
 		28A3EDDC2D7FCFEE00CDF95B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28A3EDDB2D7FCFEE00CDF95B /* GoogleService-Info.plist */; };
+		654036D82D8C0C3F00E8EA58 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654036D72D8C0C3F00E8EA58 /* Login.swift */; };
+		654036DA2D8C0C7100E8EA58 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654036D92D8C0C7100E8EA58 /* Register.swift */; };
 		65F00F5C2D799A38000E7B14 /* homesecurity_demo_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F00F5B2D799A38000E7B14 /* homesecurity_demo_4App.swift */; };
 		65F00F5E2D799A38000E7B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F00F5D2D799A38000E7B14 /* ContentView.swift */; };
 		65F00F602D799A3C000E7B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F00F5F2D799A3C000E7B14 /* Assets.xcassets */; };
@@ -76,6 +78,8 @@
 		28A3EDB72D7F207600CDF95B /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		28A3EDBA2D7F27B100CDF95B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		28A3EDDB2D7FCFEE00CDF95B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		654036D72D8C0C3F00E8EA58 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		654036D92D8C0C7100E8EA58 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		65F00F582D799A38000E7B14 /* homesecurity demo 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homesecurity demo 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F00F5B2D799A38000E7B14 /* homesecurity_demo_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homesecurity_demo_4App.swift; sourceTree = "<group>"; };
 		65F00F5D2D799A38000E7B14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 				28A3EDAB2D7DD45900CDF95B /* Profile.swift */,
 				28A3EDA92D7DD43B00CDF95B /* Chat.swift */,
 				28A3EDA72D7DD40E00CDF95B /* Favorite.swift */,
+				654036D72D8C0C3F00E8EA58 /* Login.swift */,
+				654036D92D8C0C7100E8EA58 /* Register.swift */,
 				28A3EDA52D7DCF2F00CDF95B /* SideMenuView.swift */,
 				28A3EDA32D7DCE9E00CDF95B /* SideMenuRowType.swift */,
 				28A3EDA12D7DCE5200CDF95B /* SideMenu.swift */,
@@ -370,6 +376,7 @@
 				28A3EDA42D7DCE9F00CDF95B /* SideMenuRowType.swift in Sources */,
 				28A3EDB12D7F1F9500CDF95B /* APIService.swift in Sources */,
 				28A3EDBB2D7F27B700CDF95B /* UserViewModel.swift in Sources */,
+				654036D82D8C0C3F00E8EA58 /* Login.swift in Sources */,
 				28A3EDB82D7F207C00CDF95B /* UserController.swift in Sources */,
 				65F00F5E2D799A38000E7B14 /* ContentView.swift in Sources */,
 				65F00F5C2D799A38000E7B14 /* homesecurity_demo_4App.swift in Sources */,
@@ -377,6 +384,7 @@
 				28A3EDB62D7F202A00CDF95B /* User.swift in Sources */,
 				28A3EDA02D7DCE3200CDF95B /* MainTabbedView.swift in Sources */,
 				28A3EDAC2D7DD45A00CDF95B /* Profile.swift in Sources */,
+				654036DA2D8C0C7100E8EA58 /* Register.swift in Sources */,
 				28A3EDA22D7DCE5300CDF95B /* SideMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
