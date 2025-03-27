@@ -6,3 +6,7 @@ homesecurity demo 4.xcodeproj/._project.xcworkspace
 homesecurity demo 4.xcodeproj/._xcuserdata
 /homesecurity demo 4.xcodeproj/xcuserdata
 /homesecurity demo 4.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj
+homesecurity demo 4.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+._homesecurity demo 4.xcodeproj
+._homesecurity demo 4.xcodeproj
